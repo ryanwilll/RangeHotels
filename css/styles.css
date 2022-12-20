@@ -113,3 +113,31 @@ h6 {
   text-transform: uppercase;
   font-weight: normal;
 }
+
+.hidden {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  opacity: 0;
+  display: block;
+}
+.footer {
+  background: #25303e;
+  color: #83969f;
+  text-align: center;
+  padding-bottom: 2em;
+}
+.footer-menushare {
+  background: #303d4c;
+  padding: 0.5em;
+}
+
+.footer-menushare li {
+  display: inline-block;
+  margin: 0 1.2em;
+}
+.footer-menushare a {
+  text-decoration: 0;
+  color: white;
+  font-size: 1.2em;
+}
