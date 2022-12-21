@@ -162,8 +162,12 @@ h6 {
   font-size: 1.1em;
   text-decoration: none;
   color: white;
+  transition: all 0.5s ease-in-out;
 }
 
+.footer-menushare a:hover {
+  color: #daa520;
+}
 @media screen and (min-width: 48.75em) {
   .top-header-logo {
     float: left;
@@ -228,6 +232,7 @@ h6 {
   }
   .icon-play {
     height: 7em;
+    padding-bottom: 7em;
   }
   .col-1-4 {
     width: 22%;
@@ -238,7 +243,11 @@ h6 {
     margin: 1%;
     float: left;
   }
+  .main-content-title {
+    text-align: center;
+  }
   .main-content-article .btn {
-    float: left;
+    display: block;
+    margin-right: 32%;
   }
 }
