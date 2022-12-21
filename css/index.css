@@ -26,9 +26,11 @@ h6 {
 .icon-play {
   height: 5em;
   display: none;
+  animation: flutuar 6s ease-in-out infinite;
 }
 
 .icon-play img {
+  rotate: 90deg;
   max-width: 100%;
   max-height: 100%;
 }
@@ -190,6 +192,7 @@ h6 {
 
   .top-nav a {
     color: #713a84;
+    border-radius: 5%;
   }
   .top-nav a:hover {
     background: #e7d9fc;
@@ -248,6 +251,18 @@ h6 {
   }
   .main-content-article .btn {
     display: block;
-    margin-right: 32%;
+    margin-right: 37%;
+  }
+}
+
+@keyframes flutuar {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
   }
 }
