@@ -4,6 +4,11 @@ html {
   font-family: sans-serif;
 }
 
+img {
+  pointer-events: none;
+  user-select: none;
+}
+
 h1,
 h2,
 h3,
@@ -145,6 +150,7 @@ h6 {
 }
 .footer {
   background: #25303e;
+
   color: #83969f;
   text-align: center;
   padding-bottom: 2em;
@@ -177,6 +183,7 @@ h6 {
   .icon-play {
     display: block;
     animation: flutuar_mobile 6s ease-in-out infinite;
+    user-select: none;
   }
   .top-nav {
     background: transparent;
@@ -221,7 +228,8 @@ h6 {
 
 @media screen and (min-width: 62.5em) {
   .top-content {
-    background: #521a66 url(../images/bg_topo_1198x670.jpg);
+    background: #521a66 url(../images/bg_topo_1198x670.jpg) no-repeat;
+    background-size: cover;
     background-position: center bottom;
     height: 20em;
     padding-top: 17em;
