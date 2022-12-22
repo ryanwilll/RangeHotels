@@ -176,6 +176,7 @@ h6 {
   }
   .icon-play {
     display: block;
+    animation: flutuar_mobile 6s ease-in-out infinite;
   }
   .top-nav {
     background: transparent;
@@ -264,5 +265,16 @@ h6 {
   }
   100% {
     transform: translatey(0px);
+  }
+}
+@keyframes flutuar_mobile {
+  0% {
+    transform: translatey(15px);
+  }
+  50% {
+    transform: translatey(-10px);
+  }
+  100% {
+    transform: translatey(15px);
   }
 }
