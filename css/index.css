@@ -105,6 +105,8 @@ h6 {
 .middle-content {
   padding: 2em;
   background: #f6f6f6;
+  max-width: 1540px;
+  margin: 0 auto;
   text-align: center;
 }
 .middle-content span[class^="icon"] {
@@ -150,7 +152,8 @@ h6 {
 }
 .footer {
   background: #25303e;
-
+  max-width: 1540px;
+  margin: 0 auto;
   color: #83969f;
   text-align: center;
   padding-bottom: 2em;
@@ -228,8 +231,8 @@ h6 {
 
 @media screen and (min-width: 62.5em) {
   .top-content {
-    background: #521a66 url(../images/bg_topo_1198x670.jpg) no-repeat;
-    background-size: cover;
+    background: url(../images/bg_topo_1198x670.jpg) no-repeat;
+    background-size: auto;
     background-position: center bottom;
     height: 20em;
     padding-top: 17em;
